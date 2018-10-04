@@ -11,7 +11,7 @@ With the help of the script you can easily convert your videos beforehand, and u
 
 - Simple python script - run and forget!
 - Convert multiple source files at once!
-- No incomaptibility issues due to the DNX-HR codec!
+- No incomaptibility issues due to the DNxHR codec!
 
 ## Usage
 
