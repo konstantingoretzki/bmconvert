@@ -16,7 +16,7 @@ def convert(source, output, quality):
     # Check if file extension is a compatible format to convert
     # prevent mismatch errors with x.lower() e.g. .MOV and .mov
     fileExtension = os.path.splitext(source)[1][1:]
-    if fileExtension.lower in videoFormats:
+    if fileExtension.lower() in videoFormats:
         outputName = output+'.mov'
         profile = 'dnxhr_'+quality
         try:
