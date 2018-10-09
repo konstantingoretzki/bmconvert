@@ -9,7 +9,7 @@ def settings():
     # TODO: Add easy way to switch codecs and alter bitrate
     pass
 
-videoFormats = ['avi', 'mov', 'mp4', 'wmv']
+videoFormats = ['avi', 'mov', 'mp4', 'wmv', 'mkv', 'gif', 'gifv', 'webm', 'mpeg', 'm4v', 'flv', 'mts']
 
 def convert(source, output, quality):
     """Convert videofile to DNxHR"""
